@@ -14,8 +14,8 @@ class Personaje:
         print("Nombre: ",self.nombre)
         print("Vida: ",self.vida)
         
-    def atacar(self,puntos_ataque):
-        print(f"Has atacado con {puntos_ataque} puntos de daño!")
+    def atacar(self,arma):
+        print(f"Has atacado con {arma.ataque} puntos de daño!")
 
         
 class Arma:
@@ -31,5 +31,5 @@ personaje1 = Personaje("Dave",1000)
 
 # Ambos objetos interactuan entre ellos por medio de sus atributos
 
-personaje1.atacar(arma1.ataque)
+personaje1.atacar(arma1)
 #Aqui personaje está interactuando con arma
