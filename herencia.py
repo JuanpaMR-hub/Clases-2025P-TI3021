@@ -11,6 +11,8 @@ class Personaje:
         print("Nombre: ",self._nombre)
         print("Vida: ",self.vida)
         
+
+# Clase Barbaro se extiende de personaje
 class Barbaro(Personaje):
     def __init__(self,nombre:str,vida:int):
         super().__init__(nombre,vida)
@@ -26,13 +28,13 @@ class Mago(Personaje):
         self.mana = mana
         
     def info(self):
+        # Modificamos el metodo info, para añadir mana y su clase
         super().info()
+        
         print("Mana: ", self.mana)
         print("Clase: Mago")
         
-#D.R.Y
-# Don't Repeat Yourself
-        
+     
         
 b1 = Barbaro("Dave",100)
 m1 = Mago("Merlin",80,100)

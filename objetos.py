@@ -7,11 +7,13 @@ os.system('cls')
 class Persona:
     #Constructor -> instancia el objeto
     def __init__(self,nombre:str,apellido:str,juego_favorito:str="Ninguno"):
+        # Atributos del objeto
         self.nombre = nombre
         self.apellido = apellido
         self.juego_favorito = juego_favorito
     
     def info(self):
+        # con self se refiere al objeto
         print("----------------------------------------")       
         print("Nombre: ",self.nombre)       
         print("Apellido: ",self.apellido)
@@ -31,5 +33,3 @@ for persona in lista_personas:
     persona.info()
     
     
-# CREAR LA CLASE USUARIO
-# Opcional -> Crear metodo autenticarse (login)
