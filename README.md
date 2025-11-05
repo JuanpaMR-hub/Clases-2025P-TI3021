@@ -4,8 +4,8 @@
 
 Primeramente vimos que son las Application Programming Interfaces (API) con el famoso ejemplo del mesero
 Para la parte práctica de esto, vimos dos APIs publicas para poder obtener los datos
-- PokeApi
-- RicknMortyAPI
+- PokeApi -> https://pokeapi.co/
+- RickandMortyAPI -> https://rickandmortyapi.com/
 
 
 ## ¿Como hacer una consulta a la API?
